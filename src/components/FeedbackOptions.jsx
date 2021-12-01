@@ -11,7 +11,7 @@ const FeedbackOptions = ({ handleOnClick }) => {
           key={button}
           name={button}
           onClick={e => {
-            handleOnClick(e);
+            handleOnClick(button);
           }}
         >
           {button}
